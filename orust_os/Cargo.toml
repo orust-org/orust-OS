@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bootloader = "0.11.7"
+bootloader = "0.9.8"
