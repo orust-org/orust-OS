@@ -1,0 +1,3 @@
+[v1]
+"bootloader-x86_64-bios-boot-sector 0.11.7 (registry+https://github.com/rust-lang/crates.io-index)" = ["bootloader-x86_64-bios-boot-sector"]
+"bootloader-x86_64-bios-stage-2 0.11.7 (registry+https://github.com/rust-lang/crates.io-index)" = ["bootloader-x86_64-bios-stage-2"]
