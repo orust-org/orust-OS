@@ -1,5 +1,6 @@
 # ORUST
-Official orust operting system build with rust by Enow Scott
+Official orust operting system build with rust
+### Enow Scott
 
 # Minimal 64-bit Rust Kernel for x86 Architecture
 
