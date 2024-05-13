@@ -71,6 +71,7 @@ Next, we need to tell cargo to use the right target system. We do this by adding
 ```toml
 [build]
 target = "x86_64-unknown-none"
+```
 
 With this configuration in place, cargo will use the x86_64-unknown-none target system for building the current project. Now we can compile our freestanding Rust binary for the x86_64 architecture with the following command:
 
