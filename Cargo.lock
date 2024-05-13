@@ -13,4 +13,11 @@ name = "orust_os"
 version = "0.1.0"
 dependencies = [
  "bootloader",
+ "volatile",
 ]
+
+[[package]]
+name = "volatile"
+version = "0.2.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6af0edf5b4faacc31fc51159244d78d65ec580f021afcef7bd53c04aeabc7f29"
