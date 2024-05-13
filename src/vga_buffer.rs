@@ -1,5 +1,7 @@
 use core::fmt::{Write, Result};
 
+use lazy_static::lazy_static;
+use spin::Mutex;
 use volatile::Volatile;
 
 #[allow(dead_code)]
@@ -53,6 +55,13 @@ pub struct Writer {
     color_code: ColorCode,
     buffer: &'static mut Buffer,
 }
+lazy_static! {
+    pub static ref WRITER: Mutex<Writer> = Mutex::new(Writer {
+        column_position: 0,
+        color_code: ColorCode::new(Color::Yellow, Color::Black),
+        buffer: unsafe { &mut *(0xb8000 as *mut Buffer) },
+    });
+}
 impl Writer {
     pub fn write_byte(&mut self, byte: u8) {
         match byte {
@@ -85,7 +94,7 @@ impl Writer {
     }
 
     fn new_line(&mut self) {
-        or row in 1..BUFFER_HEIGHT {
+        for row in 1..BUFFER_HEIGHT {
             for col in 0..BUFFER_WIDTH {
                 let character = self.buffer.chars[row][col].read();
                 self.buffer.chars[row - 1][col].write(character);
@@ -111,15 +120,4 @@ impl Write for Writer {
         self.write_string(s);
         Ok(())
     }
-}
-
-pub fn print_something() {
-    let mut writer = Writer {
-        column_position: 0,
-        color_code: ColorCode::new(Color::Yellow, Color::Black),
-        buffer: unsafe { &mut *(0xb8000 as *mut  Buffer) },
-    };
-    writer.write_byte(b'H');
-    writer.write_string("ello ");
-    write!(writer, "The numbers are {} and {}", 42, 1.0/3.0).unwrap();
 }
