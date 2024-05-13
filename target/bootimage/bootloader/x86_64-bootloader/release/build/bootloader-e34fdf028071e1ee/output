@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/home/enowscott/ORUST/orust_os/Cargo.toml
-cargo:rustc-link-search=native=/home/enowscott/ORUST/orust_os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-e34fdf028071e1ee/out
-cargo:rustc-link-lib=static=kernel_bin-orust_os
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/home/enowscott/ORUST/orust_os/target/x86_64-orust_os/debug/orust_os
-cargo:rerun-if-changed=build.rs

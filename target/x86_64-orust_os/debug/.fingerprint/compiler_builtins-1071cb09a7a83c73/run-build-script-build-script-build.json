@@ -1,1 +1,0 @@
-{"rustc":7969119044071556740,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[3873069036846618750,"build_script_build",false,16974682515962799439]],"local":[{"RerunIfChanged":{"output":"x86_64-orust_os/debug/build/compiler_builtins-1071cb09a7a83c73/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
