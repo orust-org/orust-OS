@@ -50,3 +50,13 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 
 The current version of the blog is already the second edition. The first edition is outdated and no longer maintained, but might still be useful. 
 The posts of the first edition are:
+
+## License
+
+This project, with exception of the blog/content folder, is licensed under either of
+
+  . Apache License, Version 2.0 (LICENSE-APACHE or https://www.apache.org/licenses/LICENSE-2.0)
+  
+  . MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT)
+
+at your option.
