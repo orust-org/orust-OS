@@ -14,8 +14,15 @@ pub trait Testable {
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
     println!("Hello, Welcome to the ORUST Operating System{}", "!");
+
+    orust_os::init();
+
+    x86_64::instructions::interrupts::int3();
+
     #[cfg(test)]
     test_main();
+
+    println!("It did not crash!");
 
     #[allow(clippy::empty_loop)]
     loop {}
