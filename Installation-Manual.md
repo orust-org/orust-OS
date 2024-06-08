@@ -1,7 +1,7 @@
 # Installation Manual
 
-## MAC OS
+## Mac_OS
 
-## WINDOWS
+## Windows
 
 ## Linux(Ubuntu)
