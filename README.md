@@ -4,8 +4,8 @@ This repository contains the source code for the Writing an OS in Rust series at
 This is my version of Philipp Oppermann's "BlogOS". It's a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the OS using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, open an issue.
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
 
-## How to Install and Use it.
-Visit the [Installation Manual](https://github.com/Blindspot22/orust) for guidance on how to Install and use Orust
+## How to Install and Use.
+Visit the [Installation Manual](https://github.com/Blindspot22/orust/blob/main/Installation-Manual.md) for guidance on how to Install and use Orust
 
 ## Where is the code?
 
