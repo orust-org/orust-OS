@@ -31,3 +31,26 @@ brew install qemu
 ```sh
 qemu-system-x86_64 --version
 ```
+# Windows
+Ensure to clone this repository first.
+
+#### Download the QEMU installer:
+Go to the [official QEMU website](https://www.qemu.org/download/#windows) and download the Windows installer.
+#### Run the installer:
+Follow the instructions in the installation wizard to complete the setup.
+#### Add QEMU to your system PATH:
+
+    Right-click on "This PC" or "Computer" on the desktop or in File Explorer and select "Properties".
+
+    Click on "Advanced system settings".
+
+    In the System Properties window, click on the "Environment Variables" button.
+
+    In the Environment Variables window, under "System variables", find the "Path" variable and select it, then click "Edit".
+
+    In the Edit Environment Variable window, click "New" and add the path to your QEMU installation (e.g., C:\Program Files\qemu).
+#### Verify the installation:
+Open a new Command Prompt or PowerShell and run:
+```sh
+qemu-system-x86_64 --version
+```
