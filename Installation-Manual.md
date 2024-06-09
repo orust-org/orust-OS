@@ -54,3 +54,14 @@ Open a new Command Prompt or PowerShell and run:
 ```sh
 qemu-system-x86_64 --version
 ```
+# Linux(Ubuntu/Debian)
+Ensure to clone this repository first.
+
+#### Install QEMU:
+```sh
+apt install qemu-system-x86_64
+```
+#### Verify the installation:
+```sh
+qemu-system-x86_64 --version
+```
