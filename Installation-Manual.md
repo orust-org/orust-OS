@@ -15,3 +15,19 @@ Output Example
 ```sh
 rustc 1.65.0 (897e37553 2022-11-02)
 ```
+##                                 Follow the instructions below to have the orust up and running.
+
+# Mac_OS
+Ensure to clone this repository first.
+#### Install Homebrew if you don’t have it yet:
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+#### Install QEMU using Homebrew:
+```sh
+brew install qemu
+```
+#### Verify the installation:
+```sh
+qemu-system-x86_64 --version
+```
