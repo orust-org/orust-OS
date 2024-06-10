@@ -34,7 +34,7 @@ qemu-system-x86_64 --version
 #### Run orust
 Navigate into the orust directory through your terminal:
 
-Install the bootimage
+Install the bootimage.
 ```sh
 cargo install bootimage
 ```
