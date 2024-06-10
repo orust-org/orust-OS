@@ -38,6 +38,10 @@ Navigate into the orust directory through your terminal:
     ```sh
     cargo install bootimage
     ````
+    Add llvm-tools
+    ```sh
+    rustup component add llvm-tools-preview
+    ```
 Build and Run orust:
 
     ```sh
