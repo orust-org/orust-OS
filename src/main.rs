@@ -22,19 +22,14 @@ pub extern "C" fn _start() -> ! {
 
     println!("It did not crash!");
 
-    //#[allow(clippy::empty_loop)]
-    loop {
-        use orust_os::print;
-        print!("-");
-        for _ in 0..10000{}
-    }
+    orust_os::hlt_loop();
 }
 
 #[cfg(not(test))]
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
     println!("{info}");
-    loop {}
+    orust_os::hlt_loop()
 }
 
 #[cfg(test)]
