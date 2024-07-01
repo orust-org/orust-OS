@@ -1,7 +1,9 @@
+# ORUST Operating System
 <p align="center">
   <img src="image.png" alt="alt text" />
 </p>
 
+## Orust OS
 This is a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the Operating System using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, visit [Discussions](https://github.com/Blindspot22/orust/discussions) or open an issue.
 
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
@@ -11,7 +13,7 @@ Visit the [Installation Manual](https://github.com/Blindspot22/orust/blob/main/I
 
 ## Where is the code?
 
-The code for each post lives in a separate git branch. This makes it possible to see the intermediate state after each post.
+The code for each post lives in separate sections. This makes it possible to see the intermediate state after each post.
 
 The code for the latest post is available <a href="https://github.com/Blindspot22/orust/">here.</a>.
 
