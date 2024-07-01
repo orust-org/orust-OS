@@ -32,7 +32,7 @@ brew install qemu
 qemu-system-x86_64 --version
 ```
 #### Run orust
-Navigate into the orust directory through your terminal:
+Navigate into the orust directory through your terminal or IDE:
 
 Install the bootimage.
 ```sh
@@ -83,4 +83,23 @@ apt install qemu-system-x86_64
 #### Verify the installation:
 ```sh
 qemu-system-x86_64 --version
+```
+#### Run orust
+Navigate into the orust directory through your terminal or IDE:
+
+Install the bootimage.
+```sh
+cargo install bootimage
+```
+Add llvm-tools
+```sh
+rustup component add llvm-tools-preview
+```
+Build and Run orust:
+
+```sh
+cargo build
+```
+```sh
+cargo run
 ```
