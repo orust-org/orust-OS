@@ -3,7 +3,7 @@
   <img src="image.png" alt="alt text" />
 </p>
 
-## Orust OS
+##
 This is a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the Operating System using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, visit [Discussions](https://github.com/Blindspot22/orust/discussions) or open an issue.
 
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
