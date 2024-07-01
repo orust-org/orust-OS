@@ -1,7 +1,11 @@
-# ORUST
-This repository contains the source code for the Writing an OS in Rust series at <a href="https://os.phil-opp.com/">os.phil-opp.com</a> by Philipp Oppermann.
+# ORUST Operating System
+<p align="center">
+  <img src="image.png" alt="alt text" />
+</p>
 
-This is my version of Philipp Oppermann's "BlogOS". It's a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the OS using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, open an issue.
+##
+This is a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the Operating System using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, visit [Discussions](https://github.com/Blindspot22/orust/discussions) or open an issue.
+
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
 
 ## How to Install and Use.
@@ -9,7 +13,7 @@ Visit the [Installation Manual](https://github.com/Blindspot22/orust/blob/main/I
 
 ## Where is the code?
 
-The code for each post lives in a separate git branch. This makes it possible to see the intermediate state after each post.
+The code for each post lives in separate sections. This makes it possible to see the intermediate state after each post.
 
 The code for the latest post is available <a href="https://github.com/Blindspot22/orust/">here.</a>.
 
@@ -38,7 +42,7 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 
 ### Memory Management:
 
-. <a href="https://os.phil-opp.com/paging-introduction/">Introduction to Paging</a> (<a href="https://github.com/Blindspot22/orust">source code</a>)
+. <a href="https://os.phil-opp.com/paging-introduction/">Introduction to Paging</a> (<a href="https://github.com/Blindspot22/orust/tree/Paging?tab=readme-ov-file">source code</a>)
 
 . <a href="https://os.phil-opp.com/paging-implementation/">Paging Implementation</a> (<a href="https://github.com/Blindspot22/orust">source code</a>)
 
@@ -66,3 +70,7 @@ This project, with exception of the blog/content folder, is licensed under eithe
   . MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT)
 
 at your option.
+
+This repository contains some codes from the "Writing an OS in Rust" series at <a href="https://os.phil-opp.com/">os.phil-opp.com</a> by Philipp Oppermann.
+
+This is my updated and ameliorated version of Philipp Oppermann's "BlogOS" implementation.
