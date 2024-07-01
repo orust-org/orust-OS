@@ -1,4 +1,4 @@
-![alt text](image-1.png)
+![alt text](image.png)
 
 This repository contains the source code for the Writing an OS in Rust series at <a href="https://os.phil-opp.com/">os.phil-opp.com</a> by Philipp Oppermann.
 
