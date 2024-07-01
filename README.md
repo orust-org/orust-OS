@@ -42,7 +42,7 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 
 ### Memory Management:
 
-. <a href="https://os.phil-opp.com/paging-introduction/">Introduction to Paging</a> (<a href="https://github.com/Blindspot22/orust">source code</a>)
+. <a href="https://os.phil-opp.com/paging-introduction/">Introduction to Paging</a> (<a href="https://github.com/Blindspot22/orust/tree/Paging?tab=readme-ov-file">source code</a>)
 
 . <a href="https://os.phil-opp.com/paging-implementation/">Paging Implementation</a> (<a href="https://github.com/Blindspot22/orust">source code</a>)
 
