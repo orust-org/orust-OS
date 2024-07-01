@@ -2,9 +2,9 @@
   <img src="image.png" alt="alt text" />
 </p>
 
-This repository contains the source code for the Writing an OS in Rust series at <a href="https://os.phil-opp.com/">os.phil-opp.com</a> by Philipp Oppermann.
+This repository contains some codes from the Writing an OS in Rust series at <a href="https://os.phil-opp.com/">os.phil-opp.com</a> by Philipp Oppermann.
 
-This is my version of Philipp Oppermann's "BlogOS". It's a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the OS using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, open an issue.
+This is my updated and ameliorated version of Philipp Oppermann's "BlogOS". It's a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the OS using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, open an issue.
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
 
 ## How to Install and Use.
