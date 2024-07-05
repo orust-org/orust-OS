@@ -14,7 +14,6 @@ pub trait Testable {
     fn run(&self);
 }
 
-
 entry_point!(kernel_main);
 
 fn kernel_main(boot_info: &'static BootInfo) -> ! {
@@ -47,14 +46,12 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     orust_os::hlt_loop();
 }
 
-
 #[cfg(not(test))]
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
     println!("{info}");
     orust_os::hlt_loop()
 }
-
 
 #[cfg(test)]
 #[panic_handler]
