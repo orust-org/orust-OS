@@ -9,6 +9,7 @@ The following versions of the orust operating system are currently supported wit
 | 0.1.0   | :white_check_mark: |
 | < 1.0   | :x:                |
 
+
 ## Reporting a Vulnerability
 
 To report a vulnerability in the orust project, please follow these steps:
