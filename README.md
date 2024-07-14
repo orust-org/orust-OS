@@ -17,6 +17,7 @@ The code for each post lives in separate sections. This makes it possible to see
 
 The code for the latest post is available <a href="https://github.com/Blindspot22/orust/">here.</a>.
 
+
 You can find the branch for each post by following the (source code) link in the <a href="https://github.com/Blindspot22/orust?tab=readme-ov-file#posts">Post list</a> below. The branches are named post-XX where XX is the post number, for example post-03 for the VGA Text Mode post or post-07 for the Hardware Interrupts post. For build instructions, see the Readme of the respective branch.
 
 ## Posts
