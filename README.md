@@ -9,6 +9,7 @@ This is a baremetal operating system that can boot off of a USB stick on any BIO
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
 
 ## How to Install and Use.
+
 Visit the [Installation Manual](https://github.com/Blindspot22/orust/blob/main/Installation-Manual.md) for guidance on how to Install and use Orust
 
 ## Where is the code?
