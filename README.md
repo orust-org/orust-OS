@@ -9,6 +9,7 @@ This is a baremetal operating system that can boot off of a USB stick on any BIO
 ##### <a href="https://github.com/Blindspot22">Enow Scott</a>
 
 ## How to Install and Use.
+
 Visit the [Installation Manual](https://github.com/Blindspot22/orust/blob/main/Installation-Manual.md) for guidance on how to Install and use Orust
 
 ## Where is the code?
@@ -17,11 +18,13 @@ The code for each post lives in separate sections. This makes it possible to see
 
 The code for the latest post is available <a href="https://github.com/Blindspot22/orust/">here.</a>.
 
+
 You can find the branch for each post by following the (source code) link in the <a href="https://github.com/Blindspot22/orust?tab=readme-ov-file#posts">Post list</a> below. The branches are named post-XX where XX is the post number, for example post-03 for the VGA Text Mode post or post-07 for the Hardware Interrupts post. For build instructions, see the Readme of the respective branch.
 
 ## Posts
 
 The goal of this project is to provide step-by-step tutorials in individual blog posts. We currently have the following set of posts:
+
 
 ### Bare Bones:
 
@@ -71,6 +74,6 @@ This project, with exception of the blog/content folder, is licensed under eithe
 
 at your option.
 
-This repository contains some codes from the "Writing an OS in Rust" series at <a href="https://os.phil-opp.com/">os.phil-opp.com</a> by Philipp Oppermann.
+This repository contains some codes from the "Writing an OS in Rust" series of Philipp Oppermann.
 
 This is my updated and ameliorated version of Philipp Oppermann's "BlogOS" implementation.
