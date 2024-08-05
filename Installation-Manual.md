@@ -78,7 +78,7 @@ Ensure to clone this repository first.
 
 #### Install QEMU:
 ```sh
-apt install qemu-system-x86_64
+apt install qemu qemu-kvm
 ```
 #### Verify the installation:
 ```sh
