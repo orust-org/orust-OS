@@ -74,6 +74,4 @@ This project, with exception of the blog/content folder, is licensed under eithe
 
 at your option.
 
-This repository contains some codes from the "Writing an OS in Rust" series of Philipp Oppermann.
-
 This is my updated and ameliorated version of Philipp Oppermann's "BlogOS" implementation.
