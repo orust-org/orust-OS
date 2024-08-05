@@ -4,11 +4,15 @@
 #![test_runner(orust_os::test_runner)]
 #![reexport_test_harness_main = "test_main"]
 
+extern crate alloc;
+
 use bootloader::{BootInfo, entry_point};
 
 use core::panic::PanicInfo;
 
 use orust_os::println;
+
+use alloc::boxed::Box;
 
 pub trait Testable {
     fn run(&self);
@@ -29,10 +33,12 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
         memory::BootInfoFrameAllocator::init(&boot_info.memory_map)
     };
 
+    let x = Box::new(41);
+
     #[cfg(test)]
     test_main();
 
-    println!("It did not crash!");
+    println!("It did not crash!{x}");
 
     orust_os::hlt_loop();
 }
