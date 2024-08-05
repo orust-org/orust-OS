@@ -21,17 +21,21 @@ pub trait Testable {
 entry_point!(kernel_main);
 
 fn kernel_main(boot_info: &'static BootInfo) -> ! {
-    use orust_os:: memory;
+    use orust_os::allocator;
+    use orust_os::memory::{self, BootInfoFrameAllocator};
     use x86_64::VirtAddr;
 
     println!("Hello, Welcome to the ORUST Operating System{}", "!");
     orust_os::init();
 
     let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);
-    let mut _mapper = unsafe { memory::init(phys_mem_offset) };
-    let mut _frame_allocator = unsafe {
-        memory::BootInfoFrameAllocator::init(&boot_info.memory_map)
+    let mut mapper = unsafe { memory::init(phys_mem_offset) };
+    let mut frame_allocator = unsafe {
+        BootInfoFrameAllocator::init(&boot_info.memory_map)
     };
+
+    allocator::init_heap(&mut mapper, &mut frame_allocator)
+        .expect("heap initialization failed");
 
     let x = Box::new(41);
 
