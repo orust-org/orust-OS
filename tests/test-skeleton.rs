@@ -8,7 +8,7 @@ use bootloader::{entry_point, BootInfo};
 use core::panic::PanicInfo;
 
 entry_point!(main);
-fn main(boot_info: &'static BootInfo) -> ! {
+fn main(_boot_info: &'static BootInfo) -> ! {
     unimplemented!();
 }
 
