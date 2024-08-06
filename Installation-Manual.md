@@ -87,13 +87,13 @@ qemu-system-x86_64 --version
 #### Run orust
 Navigate into the orust directory through your terminal or IDE:
 
-Install the bootimage.
-```sh
-cargo install bootimage
-```
 Add llvm-tools
 ```sh
 rustup component add llvm-tools-preview
+```
+Install the bootimage.
+```sh
+cargo install bootimage
 ```
 Build and Run orust:
 
