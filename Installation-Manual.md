@@ -59,26 +59,45 @@ Go to the [official QEMU website](https://www.qemu.org/download/#windows) and do
 Follow the instructions in the installation wizard to complete the setup.
 #### Add QEMU to your system PATH:
 
-    Right-click on "This PC" or "Computer" on the desktop or in File Explorer and select "Properties".
+    1. Right-click on "This PC" or "Computer" on the desktop or in File Explorer and select "Properties".
 
-    Click on "Advanced system settings".
+    2. Click on "Advanced system settings".
 
-    In the System Properties window, click on the "Environment Variables" button.
+    3. In the System Properties window, click on the "Environment Variables" button.
 
-    In the Environment Variables window, under "System variables", find the "Path" variable and select it, then click "Edit".
+    4. In the Environment Variables window, under "System variables", find the "Path" variable and select it, then click "Edit".
 
-    In the Edit Environment Variable window, click "New" and add the path to your QEMU installation (e.g., C:\Program Files\qemu).
+    5. In the Edit Environment Variable window, click "New" and add the path to your QEMU installation (e.g., C:\Program Files\qemu).
 #### Verify the installation:
 Open a new Command Prompt or PowerShell and run:
 ```sh
 qemu-system-x86_64 --version
+```
+#### Run orust
+Navigate into the orust folder through your IDE:
+
+1. Add llvm-tools
+```sh
+rustup component add llvm-tools-preview
+```
+2. Install the bootimage.
+```sh
+cargo install bootimage
+```
+#### Build and Run orust:
+
+```sh
+cargo build
+```
+```sh
+cargo run
 ```
 # Linux(Ubuntu/Debian)
 Ensure to clone this repository first.
 
 #### Install QEMU:
 ```sh
-apt install qemu qemu-kvm
+sudo apt install qemu qemu-kvm
 ```
 #### Verify the installation:
 ```sh
