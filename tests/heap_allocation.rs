@@ -8,10 +8,7 @@ use bootloader::{entry_point, BootInfo};
 use core::panic::PanicInfo;
 
 entry_point!(main);
-
-#[no_mangle]
-
-pub extern "C" fn main(boot_info: &'static BootInfo) -> ! {
+fn main(boot_info: &'static BootInfo) -> ! {
     unimplemented!();
 }
 
