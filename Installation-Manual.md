@@ -42,7 +42,7 @@ rustup component add llvm-tools-preview
 ```sh
 cargo install bootimage
 ```
-Build and Run orust:
+#### Build and Run orust:
 
 ```sh
 cargo build
