@@ -1,3 +1,4 @@
+pub mod linked_list;
 pub mod bump;
 use x86_64::{
     structures::paging::{
