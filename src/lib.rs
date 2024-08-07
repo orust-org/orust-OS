@@ -5,6 +5,7 @@
 #![reexport_test_harness_main = "test_main"]
 #![feature(abi_x86_interrupt)]
 #![feature(alloc_error_handler)]
+#![feature(const_mut_refs)]
 
 #[cfg(test)]
 use bootloader::{entry_point, BootInfo};
@@ -18,7 +19,7 @@ pub mod gdt;
 pub mod memory;
 pub mod allocator;
 
-use core::{alloc::Layout, panic::PanicInfo};
+use core::panic::PanicInfo;
 
 pub trait Testable {
     fn run(&self) -> ();
