@@ -1,5 +1,5 @@
 #![no_std]
-#![no_main]
+#![no_main] // overwriting rusts' entry point
 #![feature(custom_test_frameworks)]
 #![test_runner(orust_os::test_runner)]
 #![reexport_test_harness_main = "test_main"]
@@ -10,14 +10,16 @@ use orust_os::println;
 pub trait Testable {
     fn run(&self);
 }
-
+// don't mangle this fucntion since the linker looks for a function 
+// named '_start' by default
 #[no_mangle]
+// entrypoint function with "C" calling convention.
 pub extern "C" fn _start() -> ! {
-    println!("Hello, Welcome to the ORUST Operating System{}", "!");
+    println!("Hello, Welcome To The ORUST Operating System{}", "!");
 
     orust_os::init();
 
-    #[cfg(test)]
+    #[cfg(test)] 
     test_main();
 
     println!("It did not crash!");
@@ -34,7 +36,9 @@ fn panic(info: &PanicInfo) -> ! {
 }
 
 #[cfg(test)]
+// function called on panic.
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
     orust_os::test_panic_handler(info)
 }
+
