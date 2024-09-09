@@ -73,5 +73,3 @@ This project, with exception of the blog/content folder, is licensed under eithe
   . MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT)
 
 at your option.
-
-This is my updated and ameliorated version of Philipp Oppermann's "BlogOS" implementation.
