@@ -62,7 +62,7 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 The current version of the blog is already the second edition. The first edition is outdated and no longer maintained, but might still be useful. 
 The posts of the first edition are:
 
-  . <a href="https://os.phil-opp.com/multiboot-kernel/">First Edition by philipp oppermann</a> (<a href="https://github.com/Blindspot22/orust">source code</a>)
+  . <a href="https://os.phil-opp.com/multiboot-kernel/">First Edition</a> (<a href="https://github.com/Blindspot22/orust">source code</a>)
 
 ## License
 
