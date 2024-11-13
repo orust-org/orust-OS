@@ -1,10 +1,14 @@
-[![CI](https://github.com/orust-org/orust-OS/actions/workflows/rust.yml/badge.svg)](https://github.com/orust-org/orust-OS/blob/main/.github/workflows/rust.yml)
-[![Rust Embedded](https://img.shields.io/badge/Rust%20Embedded-Book-blue.svg)](https://docs.rust-embedded.org/book/)
-[![rust-lang](https://img.shields.io/badge/rust%202.0-brightgreen.svg)](https://github.com/rust-lang/rust)
 
 <p align="center">
   <img src="src/image.png" alt="alt text" />
 </p>
+
+[![CI](https://github.com/orust-org/orust-OS/actions/workflows/rust.yml/badge.svg)](https://github.com/orust-org/orust-OS/blob/main/.github/workflows/rust.yml)
+![GitHub Release](https://img.shields.io/github/v/release/orust-org/orust-OS?label=latest%20release)
+![GitHub Repo stars](https://img.shields.io/github/stars/orust-org/orust-OS?style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/orust-org/orust-OS)
+[![Rust Embedded](https://img.shields.io/badge/Rust%20Embedded-Book-blue.svg)](https://docs.rust-embedded.org/book/)
+[![rust-lang](https://img.shields.io/badge/rust%202.0-svg-badge.svg)](https://github.com/rust-lang/rust)
 
 ##
 This is a baremetal operating system that can boot off of a USB stick on any BIOS-compatible machine, which is pretty amazing. I'm going to be running the Operating System using QEMU instead of booting a physical machine. Just to keep things simple. If you have questions, visit [Discussions](https://github.com/orust-org/orust-OS/discussions) or open an issue.
