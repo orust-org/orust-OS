@@ -13,7 +13,7 @@ This is a baremetal operating system that can boot off of a USB stick on any BIO
 
 ## How to Install and Use.
 
-Visit the [Installation Manual](https://github.com/orust-org/orust-OS/tree/main/docs/Installation-Manual.md) for guidance on how to Install and use Orust
+Visit the [Installation Manual](https://github.com/orust-org/orust-OS/docs/Installation-Manual.md) for guidance on how to Install and use Orust
 
 ## Where is the code?
 
@@ -22,7 +22,7 @@ The code for each post lives in separate sections. This makes it possible to see
 The code for the latest post is available <a href="https://github.com/orust-org/orust-OS/">here.</a>.
 
 
-You can find the branch for each post by following the (source code) link in the <a href="https://github.com/orust-org/orust-OS/">Post list</a> below. The branches are named post-XX where XX is the post number, for example post-03 for the VGA Text Mode post or post-07 for the Hardware Interrupts post. For build instructions, see the Readme of the respective branch.
+You can find the branch for each post by following the (source code) link in the <a href="https://github.com/orust-org/orust-OS/tree/main?tab=readme-ov-file#posts">Post list</a> below. The branches are named post-XX where XX is the post number, for example post-03 for the VGA Text Mode post or post-07 for the Hardware Interrupts post. For build instructions, see the Readme of the respective branch.
 
 ## Posts
 
