@@ -3,6 +3,7 @@
   <img src="src/image.png" alt="alt text" />
 </p>
 
+[![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor)](https://discord.gg/c4NTzghHpA)
 [![CI](https://github.com/orust-org/orust-OS/actions/workflows/rust.yml/badge.svg)](https://github.com/orust-org/orust-OS/blob/main/.github/workflows/rust.yml)
 ![GitHub Release](https://img.shields.io/github/v/release/orust-org/orust-OS?label=latest%20release)
 ![GitHub Repo stars](https://img.shields.io/github/stars/orust-org/orust-OS?style=flat)
@@ -17,7 +18,7 @@ This is a baremetal operating system that can boot off of a USB stick on any BIO
 
 ## How to Install and Use.
 
-Visit the [Installation Manual](https://github.com/orust-org/orust-OS/blob/main/docs/Installation-Manual.md)for guidance on how to Install and use Orust
+Visit the [Installation Manual](https://github.com/orust-org/orust-OS/blob/main/docs/Installation-Manual.md) for guidance on how to Install and run Orust
 
 ## Where is the code?
 
