@@ -66,7 +66,7 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 
 ## License
 
-This project, with exception of the blog/content folder, is licensed under either of
+This project, is licensed under either of the
 
   . Apache License, Version 2.0 (LICENSE-APACHE or https://www.apache.org/licenses/LICENSE-2.0)
   
