@@ -17,7 +17,7 @@ This is a baremetal operating system that can boot off of a USB stick on any BIO
 
 ## How to Install and Use.
 
-Visit the [Installation Manual](https://github.com/orust-org/orust-OS/docs/Installation-Manual.md) for guidance on how to Install and use Orust
+Visit the [Installation Manual](https://github.com/orust-org/orust-OS/blob/main/docs/Installation-Manual.md)for guidance on how to Install and use Orust
 
 ## Where is the code?
 
@@ -63,13 +63,6 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 ### Multitasking:
 
 . <a href="https://os.phil-opp.com/async-await/">Async/Await</a> (<a href="https://github.com/orust-org/orust-OS">source code</a>)
-
-## First Edition Posts
-
-The current version of the blog is already the second edition. The first edition is outdated and no longer maintained, but might still be useful. 
-The posts of the first edition are:
-
-  . <a href="https://os.phil-opp.com/multiboot-kernel/">First Edition</a> (<a href="https://github.com/orust-org/orust-OS">source code</a>)
 
 ## License
 
