@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bootloader = { version = "0.9", features = ["map_physical_memory"]}
+bootloader = { version = "0.11", features = ["map_physical_memory"]}
 lazy_static = { version = "1.4.0", features = ["spin_no_std"] }
 spin = "0.5.2"
 volatile = "=0.2.6"
