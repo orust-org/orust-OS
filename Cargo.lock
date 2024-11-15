@@ -129,7 +129,7 @@ dependencies = [
  "spin 0.5.2",
  "uart_16550",
  "volatile 0.2.6",
- "x86_64 0.14.12",
+ "x86_64",
 ]
 
 [[package]]
@@ -144,7 +144,7 @@ version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62d9a86c292b165f757e47e7fd66855def189b2564609bc4203727b27c33db22"
 dependencies = [
- "x86_64 0.15.1",
+ "x86_64",
 ]
 
 [[package]]
@@ -233,18 +233,6 @@ dependencies = [
  "bit_field",
  "bitflags 1.3.2",
  "raw-cpuid",
-]
-
-[[package]]
-name = "x86_64"
-version = "0.14.12"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96cb6fd45bfeab6a5055c5bffdb08768bd0c069f1d946debe585bbb380a7c062"
-dependencies = [
- "bit_field",
- "bitflags 2.5.0",
- "rustversion",
- "volatile 0.4.6",
 ]
 
 [[package]]
