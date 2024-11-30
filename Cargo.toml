@@ -11,7 +11,7 @@ volatile = "=0.2.6"
 x86_64 = "0.14.2"
 uart_16550 = "0.3.0"
 pic8259 = "0.11.0"
-pc-keyboard = "0.5.0"
+pc-keyboard = "0.8.0"
 linked_list_allocator = "0.9.0"
 crossbeam-queue = {version = "0.3.11", default-features = false, features = ["alloc"] }
 conquer-once = {version = "0.3.0", default-features = false}
